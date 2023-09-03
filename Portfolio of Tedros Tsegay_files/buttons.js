@@ -16,7 +16,7 @@ $( "#ncrpgithubbutton" ).click(function() {
   window.open(buttonlink)
 });
 
-$( "#linkedin" ).attr('data-buttonlink', 'https://www.linkedin.com/in/kw0225/')
+$( "#linkedin" ).attr('data-buttonlink', 'https://www.linkedin.com/in/tedros-tsegay-8499a4140/')
 
 $( "#linkedin" ).click(function() {
   const buttonlink = $("#linkedin").data('buttonlink')
@@ -24,7 +24,7 @@ $( "#linkedin" ).click(function() {
   window.open(buttonlink)
 });
 
-$( "#github" ).attr('data-buttonlink', 'https://github.com/kylewhite0225')
+$( "#github" ).attr('data-buttonlink', 'https://github.com/ttsega06/2022-GardenMonitoring')
 
 $( "#github" ).click(function() {
   const buttonlink = $("#github").data('buttonlink')
