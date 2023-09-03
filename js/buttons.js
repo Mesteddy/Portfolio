@@ -36,7 +36,7 @@ $("#github").click(function () {
   window.open(buttonlink);
 });
 
-$("#resume").attr("data-buttonlink", "resume.html");
+$("#resume").attr("data-buttonlink", "Resume.html");
 
 $("#resume").click(function () {
   const buttonlink = $("#resume").data("buttonlink");
