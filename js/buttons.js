@@ -19,7 +19,7 @@ $("#ncrpgithubbutton").click(function () {
 
 $("#linkedin").attr(
   "data-buttonlink",
-  "https://www.linkedin.com/in/tedros-tsegay-8499a4140"
+  "https://www.linkedin.com/in/tedros-t-8499a4140/"
 );
 
 $("#linkedin").click(function () {
@@ -36,7 +36,7 @@ $("#github").click(function () {
   window.open(buttonlink);
 });
 
-$("#resume").attr("data-buttonlink", "Resume.html");
+$("#resume").attr("data-buttonlink", "Resume.pdf");
 
 $("#resume").click(function () {
   const buttonlink = $("#resume").data("buttonlink");
